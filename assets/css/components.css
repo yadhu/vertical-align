@@ -1,0 +1,14 @@
+.parent{
+	height: 500px;
+	background: #3498db;
+	-webkit-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+}
+.child{
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
